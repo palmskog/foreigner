@@ -30,6 +30,7 @@ Foreigner::Adapter.register 'jdbcmysql', 'foreigner/connection_adapters/mysql2_a
 Foreigner::Adapter.register 'postgresql', 'foreigner/connection_adapters/postgresql_adapter'
 Foreigner::Adapter.register 'jdbcpostgresql', 'foreigner/connection_adapters/postgresql_adapter'
 Foreigner::Adapter.register 'sqlite3', 'foreigner/connection_adapters/noop_adapter'
+Foreigner::Adapter.register 'jdbcsqlite3', 'foreigner/connection_adapters/noop_adapter'
 
 require 'foreigner/loader'
 require 'foreigner/railtie' if defined?(Rails)
